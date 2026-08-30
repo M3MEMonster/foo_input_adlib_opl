@@ -31,6 +31,8 @@ dist/
 packages/
 Release/
 Release FB2K/
+Debug/
+Debug FB2K/
 v143/
 x64/
 *.user

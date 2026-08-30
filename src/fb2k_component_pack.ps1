@@ -1,9 +1,9 @@
-$ErrorActionPreference = "Stop"
+﻿$ErrorActionPreference = "Stop"
 $ComponentName = "foo_input_adlib_opl"
 $DllName       = "$ComponentName.dll"
 $X86Dll = Join-Path $PSScriptRoot "Release\$DllName"
 $X64Dll = Join-Path $PSScriptRoot "x64\Release\$DllName"
-if (-not (Test-Path $X86Dll)) { throw "找不到 x86 DLL: $X86Dll`n请先编译 Release | x86`nx86 DLL not found: $X86Dll`nPlease build Release | x86 first" }
+if (-not (Test-Path $X86Dll)) { throw "x86 DLL not found, Please build Release | x86 first" }
 $OutDir   = Join-Path $PSScriptRoot "dist"
 $ZipPath  = Join-Path $OutDir "$ComponentName.zip"
 $Fb2kPath = Join-Path $OutDir "$ComponentName.fb2k-component"
