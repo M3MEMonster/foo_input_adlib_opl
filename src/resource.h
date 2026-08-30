@@ -1,6 +1,6 @@
 //{{NO_DEPENDENCIES}}
 // Microsoft Visual C++ 生成的包含文件。
-// 供 Adplug_Decoder.rc 使用
+// 供 foo_input_adlib_opl.rc 使用
 //
 #define IDD_DIALOG_ADLIB                101
 #define IDC_CHECK_SURROUND              1001

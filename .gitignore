@@ -23,6 +23,18 @@
 *.dll
 *.so.*
 
+# MSVC misc
+# (first 8 project-name characters + first 8 ProjectGuid characters)
+????????.[0-9A-Fa-f][0-9A-Fa-f][0-9A-Fa-f][0-9A-Fa-f][0-9A-Fa-f][0-9A-Fa-f][0-9A-Fa-f][0-9A-Fa-f]/
+.vs/
+dist/
+packages/
+Release/
+Release FB2K/
+v143/
+x64/
+*.user
+*.aps
 
 # Fortran module files
 *.mod
