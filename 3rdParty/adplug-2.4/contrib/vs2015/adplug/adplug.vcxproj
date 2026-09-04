@@ -46,6 +46,7 @@
     <ClCompile Include="..\..\..\src\emuopl.cpp" />
     <ClCompile Include="..\..\..\src\flash.cpp" />
     <ClCompile Include="..\..\..\src\fmc.cpp" />
+    <ClCompile Include="..\..\..\src\fmk.cpp" />
     <ClCompile Include="..\..\..\src\fmopl.c" />
     <ClCompile Include="..\..\..\src\fprovide.cpp" />
     <ClCompile Include="..\..\..\src\got.cpp" />
@@ -129,6 +130,7 @@
     <ClInclude Include="..\..\..\src\emuopl.h" />
     <ClInclude Include="..\..\..\src\flash.h" />
     <ClInclude Include="..\..\..\src\fmc.h" />
+    <ClInclude Include="..\..\..\src\fmk.h" />
     <ClInclude Include="..\..\..\src\fmopl.h" />
     <ClInclude Include="..\..\..\src\fprovide.h" />
     <ClInclude Include="..\..\..\src\got.h" />
