@@ -233,7 +233,7 @@ public:
 				utf8_desc = convert_Johab_to_utf8(desc);
 			}
 			else {
-				utf8_desc = convert_DOS_to_utf8(title);
+				utf8_desc = convert_DOS_to_utf8(desc);
 			}
 			p_info.meta_set("comment", utf8_desc.c_str());
 		}
