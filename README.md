@@ -1,6 +1,6 @@
 
 A foobar2000 component decodes AdLib series formats.
-Based on [AdPlug f8386a0](https://github.com/adplug/adplug), customized a little.
+Based on [AdPlug](https://github.com/adplug/adplug), customized a little.
 Some formats needs companion file(s). If you find the output is adnormal, please check foobar console. You may miss companion file(s) and file provider will send errors to the console.
 
 ## Compatibility
